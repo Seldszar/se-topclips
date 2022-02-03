@@ -1,0 +1,76 @@
+{
+  "clientId": {
+    "type": "text",
+    "label": "Twitch Application Client ID"
+  },
+  "clientSecret": {
+    "type": "text",
+    "label": "Twitch Application Client Secret"
+  },
+  "count": {
+    "type": "number",
+    "label": "Amount of top clips",
+    "value": 3
+  },
+  "period": {
+    "type": "dropdown",
+    "label": "Period",
+    "value": "week",
+    "options": {
+      "day": "Day",
+      "week": "Week",
+      "month": "Month"
+    }
+  },
+  "fontName": {
+    "type": "text",
+    "label": "Font Name",
+    "value": "Roboto"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size",
+    "value": 24
+  },
+  "fontWeight": {
+    "label": "Font Weight",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    }
+  },
+  "fontColor": {
+    "type": "colorpicker",
+    "label": "Font Color",
+    "value": "rgba(255, 255, 255, 1)"
+  },
+  "leaderFontSize": {
+    "type": "number",
+    "label": "Leader Font Size",
+    "value": 24
+  },
+  "leaderFontWeight": {
+    "label": "Leader Font Weight",
+    "type": "dropdown",
+    "value": "400",
+    "options": {
+      "100": "Thin (100)",
+      "300": "Light (300)",
+      "400": "Regular (400)",
+      "500": "Medium (500)",
+      "700": "Bold (700)",
+      "900": "Black (900)"
+    }
+  },
+  "leaderFontColor": {
+    "type": "colorpicker",
+    "label": "Leader Font Color",
+    "value": "rgba(255, 200, 0, 1)"
+  }
+}
